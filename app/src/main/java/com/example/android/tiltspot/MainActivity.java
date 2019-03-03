@@ -22,9 +22,16 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.media.AudioManager;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+import android.media.MediaPlayer;
+import android.media.SoundPool;
+import android.media.SoundPool.OnLoadCompleteListener;
 
 public class MainActivity extends AppCompatActivity
         implements SensorEventListener {
@@ -37,6 +44,12 @@ public class MainActivity extends AppCompatActivity
     private Sensor mSensorAccelerometer;
     private Sensor mSensorMagnetometer;
 
+    private Vibrator mVibrator;
+    private MediaPlayer mMediaPlayer;
+    private AudioManager mAudioManager;
+    private SoundPool mSoundPool;
+
+    private int soundID;
     // TextViews to display current sensor values.
     private TextView mTextSensorAzimuth;
     private TextView mTextSensorPitch;
@@ -71,6 +84,13 @@ public class MainActivity extends AppCompatActivity
                 Sensor.TYPE_ACCELEROMETER);
         mSensorMagnetometer = mSensorManager.getDefaultSensor(
                 Sensor.TYPE_MAGNETIC_FIELD);
+
+        mVibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
+        mMediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.sound_kick);
+        mAudioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+        mAudioManager.setStreamVolume(AudioManager.STREAM_MUSIC, 0,0);
+        mSoundPool = new SoundPool(10, AudioManager.STREAM_MUSIC, 0);
+        soundID = mSoundPool.load(this, R.raw.sound_kick,1);
     }
 
     /**
@@ -140,6 +160,26 @@ public class MainActivity extends AppCompatActivity
                 R.string.value_format, pitch));
         mTextSensorRoll.setText(getResources().getString(
                 R.string.value_format, roll));
+
+        if((pitch > -50)){
+            if(Build.VERSION.SDK_INT >= 26) {
+                mVibrator.vibrate(VibrationEffect.createOneShot(200, VibrationEffect.DEFAULT_AMPLITUDE));
+                if(!mMediaPlayer.isPlaying()){
+                    mMediaPlayer.start();
+                }
+                //mSoundPool.play(soundID, 1,1,0,0,1);
+            }
+            else{
+                mVibrator.vibrate(200);
+                if(!mMediaPlayer.isPlaying()){
+                    mMediaPlayer.start();
+                }
+                //mSoundPool.play(soundID, 1,1,0,0,1);
+            }
+        } else {
+
+        }
+
     }
 
     /**

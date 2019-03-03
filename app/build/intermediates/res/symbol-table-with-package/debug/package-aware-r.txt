@@ -670,6 +670,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
 id info
 id italic
 id label_azimuth
@@ -702,6 +703,7 @@ id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id searchTextView
 id search_badge
 id search_bar
 id search_button
@@ -780,6 +782,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout activity_main
+layout activity_splash
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -802,6 +805,10 @@ layout support_simple_spinner_dropdown_item
 layout tooltip
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw logo1
+raw logo2
+raw sound_1
+raw sound_kick
 string abc_action_bar_home_description
 string abc_action_bar_home_description_format
 string abc_action_bar_home_subtitle_description_format

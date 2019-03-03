@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:15:1-34:12
-INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:15:1-34:12
-INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:15:1-34:12
-INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:15:1-34:12
+ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\MatthewLee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\5bf5001e53e25f92d8c583a68018d01c\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\MatthewLee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b9c14721eb60d3be14c91d9cf1996489\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\MatthewLee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1b2953ba51d19f8bd1ccfcacf1951f9f\AndroidManifest.xml:17:1-28:12
@@ -15,25 +15,29 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\MatthewLee\
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\MatthewLee\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\14fce65d77156237c5fa4e26bbc65b1c\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\MatthewLee\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\095418690a84cbfd3b3fd6b801c505cd\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\MatthewLee\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d21d544e065a0529d8d3f8207e25420b\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:15:1-34:12
-INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:15:1-34:12
-INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:15:1-34:12
+INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:16:11-49
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:15:1-34:12
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:15:1-34:12
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:15:11-69
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:5:22-63
 application
-ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:18:5-32:19
+ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:7:5-25:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\MatthewLee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\5bf5001e53e25f92d8c583a68018d01c\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\MatthewLee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\5bf5001e53e25f92d8c583a68018d01c\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\MatthewLee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b9c14721eb60d3be14c91d9cf1996489\AndroidManifest.xml:9:5-20
@@ -57,31 +61,35 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\MatthewLee\.gra
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\MatthewLee\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d21d544e065a0529d8d3f8207e25420b\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\MatthewLee\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d21d544e065a0529d8d3f8207e25420b\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:23:9-35
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:22:9-54
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:20:9-43
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:24:9-40
-activity#com.example.android.tiltspot.MainActivity
-ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:25:9-31:20
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:13:9-59
+activity#com.example.android.tiltspot.Splash
+ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:25:19-75
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:15:19-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:27:17-68
+ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:29:17-76
+ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.example.android.tiltspot.MainActivity
+ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:22:9-24:20
+	android:name
+		ADDED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml:22:19-47
 uses-sdk
 INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\MatthewLee\Documents\JointGuard\app\src\main\AndroidManifest.xml
