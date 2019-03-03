@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.tiltspot"
+    package="com.example.android.JointGuard"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -19,14 +19,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
-        <activity android:name="com.example.android.tiltspot.Splash" >
+        <activity android:name="com.example.android.JointGuard.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.tiltspot.MainActivity" >
+        <activity android:name="com.example.android.JointGuard.MainActivity" >
         </activity>
 
         <meta-data

@@ -1,4 +1,4 @@
-com.example.android.tiltspot
+com.example.android.JointGuard
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -597,6 +597,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable ic_launcher_background
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -804,6 +805,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout tooltip
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 raw logo1
 raw logo2
